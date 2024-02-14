@@ -12,7 +12,8 @@ import { AddTripComponent } from './add-trip/add-trip.component';
 import { EditTripComponent } from './edit-trip/edit-trip.component';
 
 @NgModule({
-  declarations: [AppComponent,
+  declarations: [
+    AppComponent,
     TripListingComponent,
     TripCardComponent,
     AddTripComponent,
