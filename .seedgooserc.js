@@ -1,11 +1,11 @@
 // .seedgooserc.js
 
 module.exports = {
-    modelBaseDirectory: "app_api/models", //model directory name
-    
-    models: ["*.js", "!db.js"], //model matcher
+  modelBaseDirectory: "app_api/models", // model directory name
 
-    data: "data", //data directory name
+  models: ["*.js", "!db.js"], // model matcher
 
-    db: "mongodb://127.0.0.1:27017/travlr", //db connection url
+  data: "data", // data directory name
+
+  db: "mongodb://127.0.0.1:27017/travlr", // db connection url
 };
