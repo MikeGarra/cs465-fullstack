@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { Trip } from '../../../models/trip';
+import { Trip } from '../models/trip';
 
 @Component({
   selector: 'app-trip-card',
