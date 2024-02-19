@@ -9,7 +9,17 @@ import { TripDataService } from '../services/trip-data.service';
   styleUrls: ['./edit-trip.component.css'],
 })
 export class EditTripComponent implements OnInit {
-  editForm!: FormGroup;
+  editForm: FormGroup = new FormGroup({
+    _id: new FormGroup({}),
+    code: new FormGroup({}),
+    name: new FormGroup({}),
+    length: new FormGroup({}),
+    start: new FormGroup({}),
+    resort: new FormGroup({}),
+    perPerson: new FormGroup({}),
+    image: new FormGroup({}),
+    description: new FormGroup({}),
+  });
   submitted = false;
 
   constructor(

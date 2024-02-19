@@ -7,7 +7,8 @@ const tripsController = require("../controllers/trips");
 router.route("/login").post(authController.login);
 router.route("/register").post(authController.register);
 
-const { espressjwt: jwt } = require("express-jwt");
+//const jwt = require("express-jwt");
+const { expressjwt: jwt } = require("express-jwt");
 const auth = jwt({
   secret: process.env.JWT_SECRET,
   userProperty: "payload",
