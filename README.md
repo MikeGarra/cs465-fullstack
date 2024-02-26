@@ -29,9 +29,9 @@ Refactored code was used to improve the functionality byb creating reusable User
 Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. 
 Explain your understanding of methods, endpoints, and security in a full stack application.
 
-The methods for request and retrieval that were used for the testing of endpoints were GET, POST, PUT, and DELETE. Endpoints are the URLs that the client has access to the different parts of the API. In this project, there were different methods used in testing the endpoints, and makingusre that they were functioning properly. 
+The methods for request and retrieval that were used for the testing of endpoints were GET, POST, PUT, and DELETE. Endpoints are the URLs that the client has access to the different parts of the API. In this project, there were different methods used in testing the endpoints, and making sure that they were functioning properly. 
 
-When it came down to testing with different layers of security, additional steps were required. Making sure that passwords were not to be taken, and that only those with admin authority could make changesa to the web application's trips. Authentication became the purpose for this to happen.
+When it came down to testing with different layers of security, additional steps were required. Making sure that passwords were not to be taken, and that only those with admin authority could make changes to the web application's trips. Authentication became the purpose for this to happen.
 
 **Reflection:**
 
